@@ -1,0 +1,21 @@
+<h2>Players</h2>
+<html>
+<body>
+
+<script>
+var arr = ['Paul', 'Luke', 'Liam', 'Ani', 'Joel', 'Jayke', 'Conor', 'Ollie'];
+var i = arr.length, j, temp;
+while(--i > 0) {
+    j = Math.floor(Math.random() * (i+1));
+    temp = arr[j];
+    arr[j] = arr[i];
+    arr[i] = temp;
+}
+
+document.write(arr);
+
+</script>
+
+</body>
+</html>
+
