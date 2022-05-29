@@ -1,5 +1,7 @@
-<h1>Players</h1>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 <body>
 <style>
 .clock {
@@ -7,6 +9,19 @@
   background: black;
  }
 </style>
+
+<h1>Menu</h1>
+
+<div class="vertical-menu">
+	<a href="https://goo.gl/maps/irQ5GndV7MkWzDKN8" target="_blank">Location</a></br>
+        <a href="https://thecoachleyton.com/" target="_blank">After game Pub</a>
+</div>
+
+<header>
+<h1> Match Day Players and Clock<h1>
+</header>
+
+<h1> Players </h1>
 	<h2>To randomly create teams, refresh the page and allocate the first half of names to team A, and the second half of names to team B.<h2></br>
 
 <script>
@@ -24,13 +39,14 @@ document.write(arr);
 </script>
 
 <div class="clock">
-<h1>The Clock</h2></br>
+<h1>The Clock</h1></br>
 <p id="clock"></p>
 <script>
 const clock = new Date();
 document.getElementById("clock").innerHTML = clock;
 </script>
 </div>
+
 
 </body>
 </html>
