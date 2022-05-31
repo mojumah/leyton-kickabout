@@ -5,4 +5,4 @@ To do:
 
 1- Docker image
 2- Enable https
-3- 
+3- Add DB for players
