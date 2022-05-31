@@ -4,3 +4,4 @@ Deploy the docker container using the deploy-container.sh command, this command 
 To do:
 
 1- Docker image
+2- Enable https
