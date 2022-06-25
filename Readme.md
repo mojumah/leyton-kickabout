@@ -15,4 +15,10 @@ So you want to deploy this in another region for example Japan.
 
 2- Use git clone, to download the repository.
 
+3- Push using the command:
 
+git push https://token:<token>@github.com/mojumah/leyton-kickabout.git
+
+4- install docker using the install script
+
+5- start the container using the deploy script 
