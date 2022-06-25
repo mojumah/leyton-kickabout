@@ -79,4 +79,12 @@ You took an image of nginx on June 2022, and copied your basic html into it. Now
 
 If I am using nginx's container specially the latest then the deploment might not work. Similar to how I could not map the volumes in the Japan region. Probably because of the Java Script in the html ?
 
+What I also learned in this development that because he image is basd on Linux, with the pinguine logo visible in the docker hub, this means that I can do a docker pull, and docker build on any Linux flavour. Wheather that was Fedora, Debian, Ubuntu, Suze, Mint, etc.
 
+It does not matter, and there is no need to remember that yum is for Fedora, and apt is for Ubuntu...
+
+If you have docker installed, all you need to do do do the deployment is pull my image and run docker run based on my image.
+
+You can deploy on any OS in any region that has docker. Similar to how phsyical containers can be deployed on trains, or ships, or on the ground. Containers are easily portable and deployable on any OS that has docker installed on it. This gives developers the time to focus on the application, and not on the infra structure the application is deployed on.
+
+So go on, and start developing in the application layer, for example create that mind blowing idea of an RDS that gets you bds or people or that SQL DB wih books, maybe in docker, or that local Jenkins in a raspberrry pi that shows a web page in an intranet ...
