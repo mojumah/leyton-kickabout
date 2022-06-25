@@ -17,7 +17,7 @@ So you want to deploy this in another region for example Japan.
 
 3- Push using the command:
 
-git push https://token:\<token\>@github.com/mojumah/leyton-kickabout.git
+git push https://token:<token\>@github.com/mojumah/leyton-kickabout.git
 
 4- install docker using the install script
 
@@ -29,6 +29,11 @@ So I had to deploy using option 2 which is the Docker file as documented in
 
 
 https://www.nginx.com/blog/deploying-nginx-nginx-plus-docker/
+
+# sudo docker ps -a
+# sudo docker stop container-name
+# sudo docker rmi image-name
+# sudo docker system prune
 
 # docker build -t mynginx_image1 .
 # docker run --name mynginx3 -p 80:80 -d mynginx_image1
